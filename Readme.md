@@ -21,8 +21,7 @@
 
 ### 📕用法
 首先需要先获取cookie并填写到paiziconfig的cookie中
-[点击这里](https://api.live.bilibili.com/xlive/web-ucenter/user/MedalWall?target_id=2)
-↑用浏览器前往这里按F12，切到Network栏，然后刷新。
+用浏览器[点击这里](https://api.live.bilibili.com/xlive/web-ucenter/user/MedalWall?target_id=2)按F12，切到Network栏，然后刷新。
 刷新后下方会有一个名字叫做MedalWall的文件，点开然后在右边找到“cookie:xxxx=xxxxxxxxxxxxxxxxx”的字样，复制下来即可。
 
 放在一个文件夹里放入moudles并在_bot_.py里启用即可。
